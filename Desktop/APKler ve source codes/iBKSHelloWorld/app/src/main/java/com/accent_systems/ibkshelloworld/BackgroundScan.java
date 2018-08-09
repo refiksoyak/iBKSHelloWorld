@@ -25,7 +25,7 @@ public class BackgroundScan extends Application implements BootstrapNotifier, Be
     private static final String TAG = "BackgroundScan";
     private RegionBootstrap regionBootstrap;
     private BeaconManager mBeaconManager;
-
+//deneme
     Region regions[];
 
     public void onCreate() {
