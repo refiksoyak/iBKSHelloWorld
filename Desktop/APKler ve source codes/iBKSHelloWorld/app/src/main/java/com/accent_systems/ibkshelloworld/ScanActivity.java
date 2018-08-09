@@ -126,7 +126,7 @@ public class ScanActivity extends AppCompatActivity {
             } catch (IOException e) {
                 Log.d(TAG, "instance initializer: ıo Exception occured ----------------------------------------------------------------------------" + e);
             }
-
+//deneme
             saveButton.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View view) {
