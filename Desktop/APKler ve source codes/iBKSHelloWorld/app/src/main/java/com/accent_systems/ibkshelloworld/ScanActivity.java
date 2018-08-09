@@ -103,6 +103,7 @@ public class ScanActivity extends AppCompatActivity {
 
         //initiliaze button and file io
         Button saveButton = (Button)findViewById(R.id.saveButton);
+        Button stopButton = (Button) findViewById(R.id.stopButton);
         String fileName = "iBeaceonData.csv";
         String filepath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS).getAbsolutePath() + File.separator + fileName;
         //getting external storage permissions
